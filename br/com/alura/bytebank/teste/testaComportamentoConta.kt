@@ -1,4 +1,5 @@
-import Conta
+import br.com.alura.bytebank.modelo.ContaCorrente
+import br.com.alura.bytebank.modelo.ContaPoupanca
 
 fun testaComportamentosConta() {
     val contaVinicius = ContaCorrente(numero = 1000, titular = "Vinicius")
@@ -8,11 +9,11 @@ fun testaComportamentosConta() {
     contaTabata.deposita(valor = 350.0)
 
     println("Titular: ${contaTabata.titular}")
-    println("Conta: ${contaTabata.numero}")
+    println("br.com.alura.bytebank.modelo.Conta: ${contaTabata.numero}")
     println("Saldo ${contaTabata.saldo}")
 
     println("Titular: ${contaVinicius.titular}")
-    println("Conta: ${contaVinicius.numero}")
+    println("br.com.alura.bytebank.modelo.Conta: ${contaVinicius.numero}")
     println("Saldo ${contaVinicius.saldo}")
 
     contaTabata.deposita(35.0)

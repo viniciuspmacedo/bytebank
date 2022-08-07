@@ -1,5 +1,7 @@
+package br.com.alura.bytebank.modelo
+
 abstract class Conta (var titular:String,
-                  val numero:Int) {
+                      val numero:Int) {
 
     var saldo = 0.0
         protected set
@@ -12,14 +14,5 @@ abstract class Conta (var titular:String,
 
     abstract fun saca(valor: Double)
 
-    fun transfere(valor: Double, destino: Conta): Boolean{
-        if (this.saldo >= valor ){
-            this.saldo -= valor
-            destino.deposita(valor)
-            return true
-        }
-        return false
-    }
 
-    open fun saca() {}
 }

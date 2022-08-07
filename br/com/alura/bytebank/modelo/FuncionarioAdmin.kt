@@ -1,3 +1,5 @@
+package br.com.alura.bytebank.modelo
+
 abstract class FuncionarioAdmin(
     nome: String,
     cpf: String,
@@ -7,9 +9,9 @@ abstract class FuncionarioAdmin(
     nome = nome,
     cpf = cpf,
     salario = salario
-) {
+), Autenticavel {
 
-    fun autentica(senha: Int): Boolean {
+    override fun autentica(senha: Int): Boolean {
         if (this.senha == senha) {
             return true
         }

@@ -1,4 +1,9 @@
-fun testaFuncionarioAdmin() {
+import br.com.alura.bytebank.modelo.Cliente
+import br.com.alura.bytebank.modelo.Diretor
+import br.com.alura.bytebank.modelo.Gerente
+import br.com.alura.bytebank.modelo.SistemaInterno
+
+fun testaAutenticacao() {
     val gerente = Gerente(
         nome = "Clécio",
         cpf = "111.111.111-11",
@@ -24,5 +29,5 @@ fun testaFuncionarioAdmin() {
 
     sistemaInterno.entra(gerente, 1234)
     sistemaInterno.entra(diretora, 5678)
-    //sistemaInterno.entra(cliente, 1234)
+    sistemaInterno.entra(cliente, 1234)
 }

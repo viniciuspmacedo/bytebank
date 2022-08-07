@@ -5,14 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4a6c7de-4bed-43e4-a75b-e1c11f0c46fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FuncionarioAdmin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaInterno.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/Autenticavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/Cliente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/ContaPoupanca.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/ContaTransferivel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/SistemaInterno.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaCondicoes.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analista.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Analista.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auxiliar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Auxiliar.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diretor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Diretor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Gerente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analista.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/Analista.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auxiliar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/Auxiliar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculadoraBonificacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/CalculadoraBonificacao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cliente.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/Conta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContaCorrente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/ContaCorrente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContaPoupanca.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/ContaSalario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diretor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/Diretor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/Funcionario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FuncionarioAdmin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/FuncionarioAdmin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/Gerente.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaInterno.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testaAutenticacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaAutenticacao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testaComportamentoConta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaComportamentoConta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testaCondicoes.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testaContasDiferentes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaContasDiferentes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testaCopiasEReferencias.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaCopiasEReferencias.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testaFuncionarios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaFuncionarios.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testaLacos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaLacos.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +46,7 @@
         <option value="Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -42,16 +64,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\vinic\Documentos\MeusProjetos\bytebank\" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="modelo" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="" />

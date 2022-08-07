@@ -1,3 +1,5 @@
+package br.com.alura.bytebank.modelo
+
 class CalculadoraBonificacao {
     var total: Double = 0.0
     private set
@@ -5,10 +7,10 @@ class CalculadoraBonificacao {
     fun registra(funcionario: Funcionario) {
         this.total += funcionario.bonificacao
     }
-//    fun registra(gerente: Gerente) {
+//    fun registra(gerente: br.com.alura.bytebank.modelo.Gerente) {
 //        this.total += gerente.bonificacao
 //    }
-//    fun registra(diretor: Diretor){
+//    fun registra(diretor: br.com.alura.bytebank.modelo.Diretor){
 //        this.total += diretor.bonificacao
 //    }
 

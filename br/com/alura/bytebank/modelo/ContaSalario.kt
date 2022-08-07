@@ -1,18 +1,19 @@
-import Conta
-class ContaCorrente(
+package br.com.alura.bytebank.modelo
+
+class ContaSalario(
     titular: String,
     numero: Int
 ): Conta(
     titular = titular,
     numero = numero
 ) {
-
-    override fun saca(valor:Double){
-        val valorComTaxa = valor + 0.1
-        if (this.saldo >= valorComTaxa) {
-            this.saldo -= valorComTaxa
+    override fun saca(valor: Double) {
+        if (this.saldo >= valor) {
+            this.saldo -= valor
         } else {
             println("${this.titular}, você não tem saldo suficiente para esta transação.")
         }
     }
+
+
 }

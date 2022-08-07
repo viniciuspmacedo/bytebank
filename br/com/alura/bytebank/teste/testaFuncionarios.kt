@@ -1,3 +1,5 @@
+import br.com.alura.bytebank.modelo.*
+
 fun testaFuncionarios() {
     val analista1 = Analista(
         nome = "Antonio",
@@ -19,7 +21,7 @@ fun testaFuncionarios() {
         senha = 1234
     )
 
-    println("Gerente: ${gerente1.nome}")
+    println("br.com.alura.bytebank.modelo.Gerente: ${gerente1.nome}")
     println("CPF: ${gerente1.cpf}")
     println("Salário: ${gerente1.salario}")
     println("Bonificação: ${gerente1.bonificacao}")
