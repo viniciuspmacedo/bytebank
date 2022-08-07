@@ -1,5 +1,5 @@
 fun testaCopiasEReferencias() {
-    val contaJoao = Conta("João", 1002)
+    val contaJoao = ContaCorrente("João", 1002)
     println(contaJoao.titular)
 
     var contaMaria = contaJoao

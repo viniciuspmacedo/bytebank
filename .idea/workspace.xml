@@ -5,24 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4a6c7de-4bed-43e4-a75b-e1c11f0c46fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytebank.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Analista.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalculadoraBonificacao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Conta.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Diretor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Funcionario.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gerente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testaComportamentoConta.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testaCondicoes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testaCopiasEReferencias.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testaFuncionarios.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testaLacos.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auxiliar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testaContasDiferentes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Analista.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Analista.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculadoraBonificacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CalculadoraBonificacao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Conta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContaCorrente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ContaCorrente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContaPoupanca.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ContaPoupanca.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diretor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Diretor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Funcionario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Gerente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testaComportamentoConta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/testaComportamentoConta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testaCondicoes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/testaCondicoes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testaCopiasEReferencias.kt" beforeDir="false" afterPath="$PROJECT_DIR$/testaCopiasEReferencias.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testaFuncionarios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/testaFuncionarios.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testaLacos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/testaLacos.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -52,14 +51,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vinic\Documentos\MeusProjetos\bytebank\" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="src" />
     </key>

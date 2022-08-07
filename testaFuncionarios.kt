@@ -1,16 +1,14 @@
-package src
-
 fun testaFuncionarios() {
-    val funcionario1 = Funcionario(
+    val analista1 = Analista(
         nome = "Antonio",
         cpf = "123.456.789-10",
         salario = 1000.0,
     )
 
-    println("nome: ${funcionario1.nome}")
-    println("cpf: ${funcionario1.cpf}")
-    println("salario: ${funcionario1.salario}")
-    println("bonificação: ${funcionario1.bonificacao}")
+    println("nome: ${analista1.nome}")
+    println("cpf: ${analista1.cpf}")
+    println("salario: ${analista1.salario}")
+    println("bonificação: ${analista1.bonificacao}")
 
     println()
 
@@ -49,18 +47,25 @@ fun testaFuncionarios() {
         println("Autenticado com sucesso")
     } else println("Falha na autenticação")
 
-    val analista1 = Analista(
+    val analista2 = Analista(
         nome = "Maria",
         cpf = "444.555.666-77",
         salario = 3000.0
+    )
+
+    val auxiliar1 = Auxiliar(
+        nome = "Jefferson",
+        cpf = "555.666.777-88",
+        salario = 1000.00
     )
 
     val calculadora = CalculadoraBonificacao()
 
     calculadora.registra(diretor1)
     calculadora.registra(gerente1)
-    calculadora.registra(funcionario1)
     calculadora.registra(analista1)
+    calculadora.registra(analista2)
+    calculadora.registra(auxiliar1)
 
     println(calculadora.total)
 }

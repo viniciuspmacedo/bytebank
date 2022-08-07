@@ -1,12 +1,10 @@
-package src
-
 import Conta
 
 fun testaComportamentosConta() {
-    val contaVinicius = Conta(numero = 1000, titular = "Vinicius")
+    val contaVinicius = ContaCorrente(numero = 1000, titular = "Vinicius")
     contaVinicius.deposita(80.0)
 
-    val contaTabata = Conta(titular = "Tabata", numero = 1001)
+    val contaTabata = ContaPoupanca(titular = "Tabata", numero = 1001)
     contaTabata.deposita(valor = 350.0)
 
     println("Titular: ${contaTabata.titular}")

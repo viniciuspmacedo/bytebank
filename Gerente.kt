@@ -1,5 +1,3 @@
-package src
-
 class Gerente(
     nome: String,
     cpf: String,
@@ -18,6 +16,6 @@ class Gerente(
         return false
     }
 
-    override val bonificacao: Double get() = super.bonificacao + salario
+    override val bonificacao: Double get() = salario
 
 }

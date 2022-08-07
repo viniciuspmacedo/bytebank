@@ -1,5 +1,3 @@
-package src
-
 class Analista(
     nome: String,
     cpf: String,
@@ -10,6 +8,6 @@ class Analista(
     salario = salario
 ) {
 
-    override val bonificacao: Double get() = super.bonificacao + (salario * 0.1)
+    override val bonificacao: Double get() = (salario * 0.1)
 
 }

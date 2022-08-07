@@ -1,5 +1,3 @@
-package src
-
 import Conta
 class ContaCorrente(
     titular: String,
@@ -11,6 +9,10 @@ class ContaCorrente(
 
     override fun saca(valor:Double){
         val valorComTaxa = valor + 0.1
-        super.saca(valorComTaxa)
+        if (this.saldo >= valorComTaxa) {
+            this.saldo -= valorComTaxa
+        } else {
+            println("${this.titular}, você não tem saldo suficiente para esta transação.")
+        }
     }
 }
