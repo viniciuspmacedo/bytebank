@@ -1,7 +1,7 @@
 fun testaCondicoes(saldo: Double) {
     when {
-        saldo > 0.0 -> println("br.com.alura.bytebank.modelo.Conta Positiva")
-        saldo == 0.0 -> println("br.com.alura.bytebank.modelo.Conta Neutra")
-        else -> println("br.com.alura.bytebank.modelo.Conta Negativa")
+        saldo > 0.0 -> println("Conta Positiva")
+        saldo == 0.0 -> println("Conta Neutra")
+        else -> println("Conta Negativa")
     }
 }
