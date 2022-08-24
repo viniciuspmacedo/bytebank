@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4a6c7de-4bed-43e4-a75b-e1c11f0c46fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/exception/FalhaNaAutentcacaoException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/exception/SaldoInsuficienteException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/Endereco.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaExpressao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaPilha.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaHOF.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaRun.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaScopeFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaTipoFuncao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaWith.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/br/com/alura/bytebank/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/Cliente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/Conta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/ContaCorrente.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/ContaPoupanca.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/ContaSalario.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/ContaTransferivel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/ContaTransferivel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaComportamentoConta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaComportamentoConta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaCondicoes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaCondicoes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaContasDiferentes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaContasDiferentes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaCopiasEReferencias.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/teste/testaCopiasEReferencias.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/Endereco.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/Endereco.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/SistemaInterno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/br/com/alura/bytebank/modelo/SistemaInterno.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
